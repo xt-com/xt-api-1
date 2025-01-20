@@ -3,7 +3,7 @@ name: Update and Sync Submodules
 on:
   push:
     branches:
-      - gh-pages  # 在 gh-pages 分支有变动时触发
+      - test  # 在 test 分支有变动时触发
   workflow_dispatch:  # 手动触发此 workflow
 
 jobs:
